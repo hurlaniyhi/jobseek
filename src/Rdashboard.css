@@ -1,0 +1,88 @@
+.outerBlock{
+    /* margin-top : 95px; */
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom:  50px;
+    background-color: white;
+    border-radius: 1%;
+}
+
+.formBlock{
+    
+    width: 80%;
+   
+    margin-right: 10%;
+    margin-left: 10%;
+    box-shadow: 10px 10px 20px 5px #aaaaaa;
+    /*border: 2px solid orange;*/
+    
+    /* justify-content: center; */
+    /* border-radius: 50px;
+    background-color: white; */
+    /* z-index: 1; */
+}
+
+.ifn{
+    margin-left: 8%; 
+    margin-right: 8%;
+    line-height: 28px;
+    font-size: 20px;
+    
+    
+    /* border-radius: 100px; */
+
+}
+
+.upload{
+    width: 30%;
+    margin-right: 35%;
+    margin-left: 35%;
+    text-align: center;
+    height: 50px;
+    border-radius: 100px;
+    background-color: rgba(0, 0, 255,0.4);
+    border-bottom-style: none;
+    border-right-style: none;
+}
+
+
+@media(max-width: 1326px){
+    .ifn1{
+        font-size: 18px;
+    }
+     
+ }
+ 
+ @media(max-width: 1218px){
+     .ifn1{
+         font-size: 18px;
+     }
+      
+  }
+ 
+  @media(max-width: 978px){
+     .ifn1{
+         font-size: 20px;
+     }
+      
+  }
+ 
+  @media(max-width: 774px){
+     .ifn1{
+         font-size: 18px;
+     }
+      
+  }
+  @media(max-width: 598px){
+     .ifn1{
+         font-size: 15px;
+     }
+      
+  }
+  @media(max-width: 371px){
+     .ifn1{
+         font-size: 13px;
+     }
+      
+  }

@@ -1,0 +1,153 @@
+#menu_feedbutton{
+    
+    height: 40px;
+    background-color: rgba(52,58,64,0.3);
+    border-color: #28A745;
+    color: #28A745;
+    border-radius: 10px;
+    float: left;
+    display: block;
+    margin-left: 40px;
+    margin-top: 8px;
+    width: 95px;
+    
+}
+#menu1_feedbutton{
+
+    height: 40px;
+    /* background-color: rgba(52,58,64,0.3); */
+    border-color: blue;
+    color: #0000AB;
+    border-radius: 10px;
+    float: right;
+    display: block;
+    margin-top: 8px;
+    margin-right: 40px;
+
+
+}
+
+
+.button_feedcont{
+    
+    display: block;
+    height: 55px;
+    /* background-color: rgba(52,58,64,0.6); */
+    background-color: whitesmoke;
+    clear: right;
+  }
+
+  .landcontainer{
+    background: url("https://www.askideas.com/media/78/Adorable-Pink-Flowers-Field-Picture.jpg");    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.landdisplay{
+    margin-top : 25px;
+    
+    /*border: 2px solid orange;*/
+    
+    justify-content: center;
+    /* border-radius: 50px;
+    background-color: white; */
+    z-index: 1;
+}
+.landoverlay{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.started1{
+    width: 40%;
+    height: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: blue;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+
+.started2{
+    width: 40%;
+    height: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: blue;
+    text-align: center;
+    margin-bottom: 80px;
+    border-bottom-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.landP{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 25px;
+    line-height: 35px;
+}
+.landP1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.landH2{
+    font-size: 40px;
+    line-height: 20px;
+    padding-top: 30px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.footer{
+    background-color: rgba(52,58,64,0.6);
+
+}
+
+@media(max-width: 690px){
+    .landP{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .landP1{
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 470px){
+    .landP{
+        font-size: 18px;
+        line-height: 25px;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    .landP1{
+        font-size: 15px;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    .landH2{
+        font-size: 32px;
+    }
+}

@@ -1,0 +1,82 @@
+.outerBlock{
+    /* margin-top : 95px; */
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom:  50px;
+    background-color: white;
+    border-radius: 1%;
+}
+
+.formBlock{
+    
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    box-shadow: 10px 10px 20px 5px #aaaaaa;
+    /*border: 2px solid orange;*/
+    
+    /* justify-content: center; */
+    /* border-radius: 50px;
+    background-color: white; */
+    /* z-index: 1; */
+}
+
+.cfn{
+    /* margin-left: 35%; 
+    margin-right: 35%;
+    text-align: center;
+    height: 50px; */
+    width: 84%;
+    margin-right: 8%;
+    margin-left: 8%;
+    line-height: 22px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    height: 70px;
+    /* border-radius: 100px; */
+    border-top-style: outset;
+    border-left-style: outset;
+    
+    /* border-radius: 100px; */
+
+}
+.sub1{
+    
+    margin-right: 20%;
+    margin-left: 20%;
+    line-height: 22px;
+    width: 60%;
+    text-align: center;
+    height: 50px;
+    border-radius: 100px;
+    border-top-style: outset;
+    border-left-style: outset;
+
+
+}
+
+.mupload{
+    width: 30%;
+    margin-right: 35%;
+    margin-left: 35%;
+    text-align: center;
+    height: 60px;
+    border-radius: 100px;
+    background-color: rgba(0, 0, 255,0.4);
+    border-bottom-style: none;
+    border-right-style: none;
+}
+
+@media(max-width: 488px){
+    .mupload{
+        width: 45%;
+        margin-left: 27.5%;
+        margin-right: 27.5%;
+    }
+    #ch4{
+        font-size: 12px;
+        padding-right: 5%;
+    }
+}

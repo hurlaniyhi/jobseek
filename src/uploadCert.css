@@ -1,0 +1,72 @@
+.outerBlock{
+    /* margin-top : 95px; */
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom:  50px;
+    background-color: white;
+    border-radius: 1%;
+}
+
+.formBlock{
+    
+    width: 80%;
+   
+    margin-right: 10%;
+    margin-left: 10%;
+    box-shadow: 10px 10px 20px 5px #aaaaaa;
+    /*border: 2px solid orange;*/
+    
+    /* justify-content: center; */
+    /* border-radius: 50px;
+    background-color: white; */
+    /* z-index: 1; */
+}
+
+.cufn{
+    margin-left: 35%; 
+    margin-right: 35%;
+    text-align: center;
+    height: 50px;
+    
+    /* border-radius: 100px; */
+
+}
+
+.cupload{
+    width: 30%;
+    margin-right: 35%;
+    margin-left: 35%;
+    text-align: center;
+    height: 50px;
+    border-radius: 100px;
+    background-color: rgba(0, 0, 255,0.4);
+    border-bottom-style: none;
+    border-right-style: none;
+}
+
+
+@media(max-width: 650px){
+    .cufn{
+        margin-left: 27%;
+    }
+    .cupload{
+        width:45%;
+        margin-left: 27.5%;
+        margin-right: 27.5%;
+    }
+}
+
+@media(max-width: 450px){
+    .cufn{
+        margin-left: 18%;
+    }
+    
+}
+
+@media(max-width: 340px){
+    .cufn{
+        margin-left: 13%;
+    }
+    
+}
