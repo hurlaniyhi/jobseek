@@ -295,7 +295,7 @@ var UserDashboard = createReactClass({
         data.append('Id', localStorage.getItem("Id"))
        
         if(this.state.profilePics == ""){
-            alert("nothing to save")
+            alert("there is nothing to save")
         }
         else{
         axios.post(' https://backendjob.herokuapp.com/Picture', data).then((res)=>{
