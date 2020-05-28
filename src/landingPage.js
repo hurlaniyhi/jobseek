@@ -28,7 +28,7 @@ var LandingPage = createReactClass({
                     <p className="landP">Job Heist make it easier for job seeker to get a better job.</p> 
                     <p className="landP">It makes easier for recruiter to quickly fetch candidates that have the qualities they are looking for </p><br/><br/>
                    
-                    <NavLink exact to ="./signin" style={{textDecoration: "none"}}><button className="started2">Get Started</button></NavLink> 
+                    <NavLink exact to ="/signin" style={{textDecoration: "none"}}><button className="started2">Get Started</button></NavLink> 
                 </div>
 
                 <div className="landoverlay"></div>
