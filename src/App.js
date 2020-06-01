@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 //import logo from './logo.svg';
 //import './App.css';
 import createReactClass from 'create-react-class'
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import { BrowserRouter, Route, Switch} from 'react-router-dom'
 import LandingPage from './landingPage.js'
 import SignIn from './signin.js'
 import SignUp from './signUp.js'
@@ -17,8 +17,8 @@ import Requiter from './requiter.js'
 var App = createReactClass({
   render: function(){
     return(
-      <Router>
-        <div>
+      <BrowserRouter>
+        
           <Switch>
           <Route path="/" exact component={LandingPage}></Route>
           <Route path="/signin" exact component={SignIn}></Route>
@@ -27,11 +27,11 @@ var App = createReactClass({
           <Route path="/signin/requiter" component={Requiter}></Route>
 
           </Switch>
-        </div>
-      </Router>
+      
+      </BrowserRouter>
     )
   }
 })
 
-// ReactDOM.render(<Bootstrap />, document.getElementById("root"))
+// ReactDOM.render(<App />, document.getElementById("root"))
 export default App

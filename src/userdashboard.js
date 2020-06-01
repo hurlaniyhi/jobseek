@@ -298,7 +298,7 @@ var UserDashboard = createReactClass({
             alert("there is nothing to save")
         }
         else{
-        axios.post(' https://backendjob.herokuapp.com/Picture', data).then((res)=>{
+        axios.post('localhost/Picture', data).then((res)=>{
             
             
             if(res.data == "good"){

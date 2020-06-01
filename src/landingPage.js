@@ -33,7 +33,7 @@ var LandingPage = createReactClass({
 
                 <div className="landoverlay"></div>
             </div>
-            <br/>
+            <br/>   
             <h3 className="landH3" style={{color: "black" ,fontWeight: "800", textAlign: "center"}}>About Job Heist</h3><br/>
             <p className="landP1" style={{color: "black"}}>Job Heist has come to reduce unemployment rate and saves the time spent by</p>
             <p className="landP1" style={{color: "black"}}>the job recruiter when filtering job seekers applications.</p>
